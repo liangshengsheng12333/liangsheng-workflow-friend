@@ -1,24 +1,53 @@
-# 凉笙工作流 v2.1 朋友版候选
+# ⚡ 凉笙工作流 (Liangsheng Workflow) · v2.1 朋友版
 
-凉笙工作流是一套半自动项目协作流程，覆盖需求讨论、PRD、员工窗口初始化、按依赖派发、查收和进度恢复。
+<p align="center">
+  <b>半自动项目工程协作流 · 岗位驱动与智能开发协同插件体系</b>
+</p>
 
-## 当前状态
+<p align="center">
+  <img src="https://img.shields.io/badge/Plugin-Codex%20Agent-007ACC.svg?style=flat-square" alt="Plugin" />
+  <img src="https://img.shields.io/badge/Architecture-Multi--Role%20Driven-8A2BE2.svg?style=flat-square" alt="Architecture" />
+  <img src="https://img.shields.io/badge/Release-v2.1.0--friend-green.svg?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" />
+</p>
 
-此仓库发布的是 v2.1.0 朋友版候选包。朋友版排除个人维护入口、内部维护档案和连接凭据。尚未完成朋友设备上的安装与真实工作流验收；请把 `测试说明.md` 作为待执行的验收步骤，不要将候选状态理解为全部通过。
+---
 
-## 目录
+## 📖 项目简介
 
-- `.agents/plugins/marketplace.json`：本地插件市场清单
-- `plugins/liangsheng/`：插件源码
-- `使用说明.md`：安装和使用入口
-- `功能介绍.md`：功能概览
-- `版本验收说明.md`、`测试说明.md`、`测试结果回填.md`：验收材料
-- `releases/`：v2.1.0 朋友版候选 ZIP 与 SHA-256
+**《凉笙工作流》** 是一套面向 AI 辅助工程研发的高效**半自动多角色协作流程规范与插件体系**。通过严格的状态机与依赖链路，将复杂软件工程交付拆解为可追踪、可复现、可恢复的标准化流水线：
 
-## 快速开始
+`	ext
+需求讨论 (P00) ──► 简要PRD裁定 ──► 岗位提示词派发 ──► 独立测试查收 ──► 交付归档与快照恢复
+`
 
-下载或克隆本仓库，在 Codex 本地插件市场中添加仓库根目录的 `.agents/plugins/marketplace.json`，再安装 `liangsheng`。首次使用请先阅读 `使用说明.md`，并按 `测试说明.md` 在独立项目目录试用。
+本仓库发布的是面向协作者的 **v2.1.0 朋友版候选包**，已彻底剥离个人私有凭证与内部维护档案，提供干净即用的工程协作模板。
 
-## 许可
+---
 
-MIT。详见仓库根目录 `LICENSE`。
+## 📂 仓库结构导航
+
+`	ext
+├── .agents/plugins/marketplace.json   # 本地插件市场索引清单
+├── plugins/liangsheng/                # 凉笙工作流核心技能与规则源码
+├── 使用说明.md                         # 插件快速安装与启动指南
+├── 功能介绍.md                         # 核心多角色协作流全景介绍
+├── 版本验收说明.md                     # 质量门禁与跨平台环境要求
+├── 测试说明.md                         # 待执行的真实工作流验收指南
+└── releases/                          # v2.1.0 预编译发布包与 SHA-256 哈希
+`
+
+---
+
+## 🚀 快速上手
+
+1. 克隆或下载本仓库至本地；
+2. 在 Codex 或对应 Agent 工具的本地插件市场中，添加根目录的 `.agents/plugins/marketplace.json`；
+3. 点击安装 `liangsheng` 工作流插件；
+4. 首次使用请阅读 [使用说明.md](使用说明.md)，并在测试项目中参照 [测试说明.md](测试说明.md) 进行独立验证。
+
+---
+
+## 📜 许可证
+
+本项目采用 [MIT License](LICENSE) 开源协议。
