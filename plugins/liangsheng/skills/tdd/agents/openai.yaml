@@ -1,0 +1,6 @@
+interface:
+  display_name: "测试驱动"
+  short_description: "测试驱动：在适用公共接缝逐片执行失败测试、最小实现和通过验证"
+  default_prompt: "使用 $liangsheng:tdd 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "冲突解决"
+  short_description: "冲突解决：用户要解决 Git 合并或变基冲突且仓库确有未解决冲突时，核对双方意图并验证"
+  default_prompt: "使用 $liangsheng:resolving-merge-conflicts 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

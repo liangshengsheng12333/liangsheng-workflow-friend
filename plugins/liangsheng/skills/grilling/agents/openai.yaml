@@ -1,0 +1,6 @@
+interface:
+  display_name: "决策拷问"
+  short_description: "决策拷问：用户希望针对一个具体决定逐轮追问假设、取舍和依赖时使用"
+  default_prompt: "使用 $liangsheng:grilling 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

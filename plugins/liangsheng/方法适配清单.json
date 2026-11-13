@@ -1,0 +1,711 @@
+{
+  "version": "2.1.0",
+  "policy": "preserve-methods; bounded operational substitutions",
+  "items": [
+    {
+      "skill": "ask-matt",
+      "resource": "PHASE-BOUNDARIES.md",
+      "upstream_body_sha256": "a8aa20158609ef39e2b308b6ba0660c91066838d07a867202e63a7744a88a3ed",
+      "adapted_body_sha256": "0ed44d73fc50c2da3d706e25394df8bb0db1c595de1bc0d3cfb82b1feb3d3276",
+      "upstream_body_lines": 55,
+      "adapted_body_lines": 57,
+      "changes": [
+        {
+          "rule": "skill-name:handoff",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "skill": "ask-matt",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "66177f268e4451cbdd369fa387f6e097b0fc680681d99684c0788b61be6dccf8",
+      "adapted_body_sha256": "ba2cf7719d8cef2f2944d0616790d48e89824513cb92cfe653a580008547d5f1",
+      "upstream_body_lines": 84,
+      "adapted_body_lines": 84,
+      "changes": [
+        {
+          "rule": "skill-name:code-review",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:codebase-design",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:diagnosing-bugs",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:domain-modeling",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:grill-me",
+          "count": 4
+        },
+        {
+          "rule": "skill-name:grill-with-docs",
+          "count": 10
+        },
+        {
+          "rule": "skill-name:grilling",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:handoff",
+          "count": 5
+        },
+        {
+          "rule": "skill-name:implement",
+          "count": 8
+        },
+        {
+          "rule": "skill-name:improve-codebase-architecture",
+          "count": 4
+        },
+        {
+          "rule": "skill-name:prototype",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:research",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:resolving-merge-conflicts",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:tdd",
+          "count": 3
+        },
+        {
+          "rule": "skill-name:teach",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:to-questionnaire",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:to-spec",
+          "count": 3
+        },
+        {
+          "rule": "skill-name:to-tickets",
+          "count": 5
+        },
+        {
+          "rule": "skill-name:triage",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:wait-what",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:wayfinder",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:wizard",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:writing-for-agents",
+          "count": 1
+        },
+        {
+          "rule": "language",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "code-review",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "46f66f7e40682b3e6421a5f673045c2e6bf52c67fc41ae7b57998411c7389a9f",
+      "adapted_body_sha256": "9b09697404812a924651f84d73ebd87890f9b483f0e5c41a13e699b9d6fbd55d",
+      "upstream_body_lines": 82,
+      "adapted_body_lines": 82,
+      "changes": [
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 1
+        },
+        {
+          "rule": "review-default",
+          "count": 1
+        },
+        {
+          "rule": "review-default",
+          "count": 1
+        },
+        {
+          "rule": "review-missing-spec",
+          "count": 1
+        },
+        {
+          "rule": "review-working-tree",
+          "count": 1
+        },
+        {
+          "rule": "review-working-tree",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "codebase-design",
+      "resource": "DEEPENING.md",
+      "upstream_body_sha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+      "adapted_body_sha256": "ce92a3ea0ccbdeb43641b3a4658d19df9605cbc2ed3e842d3721af06bde7398e",
+      "upstream_body_lines": 37,
+      "adapted_body_lines": 39,
+      "changes": []
+    },
+    {
+      "skill": "codebase-design",
+      "resource": "DESIGN-IT-TWICE.md",
+      "upstream_body_sha256": "8e740bf98446dbd4dfdc132ac4346d9a7eedaf93de6a495889171cf7f99f16bd",
+      "adapted_body_sha256": "9a2068ea9fa4098be747ea08061f52d208fb64516399a1e37dd22d46950fc2fe",
+      "upstream_body_lines": 44,
+      "adapted_body_lines": 46,
+      "changes": []
+    },
+    {
+      "skill": "codebase-design",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "9153e20f10ff70df8ac0c9f4dcf9935a4328079252d2bf33c5765775eb40ef83",
+      "adapted_body_sha256": "9153e20f10ff70df8ac0c9f4dcf9935a4328079252d2bf33c5765775eb40ef83",
+      "upstream_body_lines": 109,
+      "adapted_body_lines": 109,
+      "changes": []
+    },
+    {
+      "skill": "diagnosing-bugs",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "418415df85addec513e39d96cde6eb0449154ecae564b770996bc0bea6e20930",
+      "adapted_body_sha256": "418415df85addec513e39d96cde6eb0449154ecae564b770996bc0bea6e20930",
+      "upstream_body_lines": 133,
+      "adapted_body_lines": 133,
+      "changes": []
+    },
+    {
+      "skill": "domain-modeling",
+      "resource": "ADR-FORMAT.md",
+      "upstream_body_sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "adapted_body_sha256": "2ba524dadefb5fb358e019a17d2d8c7009e525bc56905070e0184233a3f4172c",
+      "upstream_body_lines": 47,
+      "adapted_body_lines": 49,
+      "changes": []
+    },
+    {
+      "skill": "domain-modeling",
+      "resource": "CONTEXT-FORMAT.md",
+      "upstream_body_sha256": "17ab16ce783e4d2801ee52fd9acdf550cbf44de65ae76797a93943bbedf22a13",
+      "adapted_body_sha256": "b5e69f9c8e531cd048a03446ad9adfcaa939601a329b9b4d1ce2cf23ff1565a5",
+      "upstream_body_lines": 60,
+      "adapted_body_lines": 62,
+      "changes": []
+    },
+    {
+      "skill": "domain-modeling",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "c6aacc200dcc409bb7d326f15c393559bc35b6b8f27077d55500fd6515fef3e1",
+      "adapted_body_sha256": "c6aacc200dcc409bb7d326f15c393559bc35b6b8f27077d55500fd6515fef3e1",
+      "upstream_body_lines": 69,
+      "adapted_body_lines": 69,
+      "changes": []
+    },
+    {
+      "skill": "grill-me",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "1c840caa8d9d67f8c10b9f604e999adb029aa973f22148e42aca69d5811404d4",
+      "adapted_body_sha256": "460d50e224ef0b1b0cbb2bdff455a752ae7e4b58df53305801e76e6aaae980b0",
+      "upstream_body_lines": 1,
+      "adapted_body_lines": 1,
+      "changes": [
+        {
+          "rule": "single-skill-load",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "grill-with-docs",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "358732101e8188e25189142d2967270284fb3fa82b54fd5b94a2e47b468c6c96",
+      "adapted_body_sha256": "d5077e6dea15577178a7c1d42de6df10b242c89e34e1976b55b5cb763d1952ef",
+      "upstream_body_lines": 1,
+      "adapted_body_lines": 1,
+      "changes": [
+        {
+          "rule": "two-skill-load",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "grilling",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "e3ff41d7514da8ddec35e322176761a68055c4bf074f489a0e6e392a40bfd8ba",
+      "adapted_body_sha256": "e3ff41d7514da8ddec35e322176761a68055c4bf074f489a0e6e392a40bfd8ba",
+      "upstream_body_lines": 23,
+      "adapted_body_lines": 23,
+      "changes": []
+    },
+    {
+      "skill": "handoff",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "9e2157aeb2ec7a78839c717f2b916f439cbb0fdb9143571de4632a7b70af4c14",
+      "adapted_body_sha256": "8111b3621f8cc0048da9467e339c90ece5c9b35ec4cdef1fb0d4ee99fe505b4e",
+      "upstream_body_lines": 9,
+      "adapted_body_lines": 9,
+      "changes": [
+        {
+          "rule": "tool-adapter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "implement",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "a554cb2567e97279ec125d87f334c54e7cc3cab2695df25ae1bcd19e3cfe0790",
+      "adapted_body_sha256": "8fbdcc91adfbd51c9c46ce6eec20a7320cd7a3ae2e4eaf8971837cf0c945d512",
+      "upstream_body_lines": 9,
+      "adapted_body_lines": 9,
+      "changes": [
+        {
+          "rule": "skill-name:code-review",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:tdd",
+          "count": 1
+        },
+        {
+          "rule": "commit-owner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "improve-codebase-architecture",
+      "resource": "HTML-REPORT.md",
+      "upstream_body_sha256": "581e8bb5a521e46bbda8ca7e19b15948bed882187108092ebb90c62513b77528",
+      "adapted_body_sha256": "3ba62d694670e41dc738f9fdef0ac62e6063e47d78775cba986a624155577129",
+      "upstream_body_lines": 123,
+      "adapted_body_lines": 125,
+      "changes": [
+        {
+          "rule": "skill-name:codebase-design",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "skill": "improve-codebase-architecture",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "010545252959bd6350ec60100a19cca36091938248687028e3435454c1466ba7",
+      "adapted_body_sha256": "d6a259fd66b039d326216b1b730a240c5bfbbbdeb9d6b10dfb9868be221d3255",
+      "upstream_body_lines": 65,
+      "adapted_body_lines": 65,
+      "changes": [
+        {
+          "rule": "skill-name:codebase-design",
+          "count": 1
+        },
+        {
+          "rule": "single-skill-load",
+          "count": 4
+        },
+        {
+          "rule": "language",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "prototype",
+      "resource": "LOGIC.md",
+      "upstream_body_sha256": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9",
+      "adapted_body_sha256": "d6ec40ed5939974709043a8ca0cc5658afce02cc1b084dfc358046e2ba399a0d",
+      "upstream_body_lines": 67,
+      "adapted_body_lines": 69,
+      "changes": []
+    },
+    {
+      "skill": "prototype",
+      "resource": "UI.md",
+      "upstream_body_sha256": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3",
+      "adapted_body_sha256": "c2296d5de94ba9963848a5950485a5fba6da7304e3bd5a8b53cd925586f19c24",
+      "upstream_body_lines": 112,
+      "adapted_body_lines": 114,
+      "changes": []
+    },
+    {
+      "skill": "prototype",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "11ed81ec2d0cbf38606ab6776fb0e615b8bc9f4e02aa0d5e5fc3b87db718af80",
+      "adapted_body_sha256": "11ed81ec2d0cbf38606ab6776fb0e615b8bc9f4e02aa0d5e5fc3b87db718af80",
+      "upstream_body_lines": 21,
+      "adapted_body_lines": 21,
+      "changes": []
+    },
+    {
+      "skill": "research",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "6beacb408fbed9ced214b0dbea543a9a371da67031f2b5e03deecd4fd269d451",
+      "adapted_body_sha256": "6beacb408fbed9ced214b0dbea543a9a371da67031f2b5e03deecd4fd269d451",
+      "upstream_body_lines": 7,
+      "adapted_body_lines": 7,
+      "changes": []
+    },
+    {
+      "skill": "resolving-merge-conflicts",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "55f9c85cec88e96ed18038c159553b4c73b73c03dc97c3eb2443ad23163bc00a",
+      "adapted_body_sha256": "f055d49746128572ddf929eb2e8ef94eef1a039998b63c3b2b23ebc273ad8500",
+      "upstream_body_lines": 9,
+      "adapted_body_lines": 9,
+      "changes": [
+        {
+          "rule": "conflict-commit",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "domain.md",
+      "upstream_body_sha256": "edc6d6131fdffc4b7135704f5262124fc43355c95f61b7399dc5a4db643e28ca",
+      "adapted_body_sha256": "f6d2baf2e0b3d84fc2cdd7a1272bb69a9c45882749b971b0b4ab68eb4de4c636",
+      "upstream_body_lines": 51,
+      "adapted_body_lines": 53,
+      "changes": [
+        {
+          "rule": "skill-name:domain-modeling",
+          "count": 2
+        },
+        {
+          "rule": "skill-name:grill-with-docs",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:improve-codebase-architecture",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "issue-tracker-github.md",
+      "upstream_body_sha256": "afd6852a80185217bd28aa5cbe456bef1e85be25be7bd1fba382d5b8ee428325",
+      "adapted_body_sha256": "618a3679985ba8dac45ac32929b9c6dec2f60a39a7798d60c0be5dddf14560a2",
+      "upstream_body_lines": 45,
+      "adapted_body_lines": 47,
+      "changes": [
+        {
+          "rule": "skill-name:triage",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:wayfinder",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "issue-tracker-gitlab.md",
+      "upstream_body_sha256": "ea175f73d193b3f55819c0ed9bbccf6ee0e70ad8f928e3d7607596c53380acd6",
+      "adapted_body_sha256": "3849e0f0843702b6bb9b4ae9ba2ace18a2bb87649417baefb5909fa419a862c8",
+      "upstream_body_lines": 46,
+      "adapted_body_lines": 48,
+      "changes": [
+        {
+          "rule": "skill-name:triage",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:wayfinder",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "issue-tracker-local.md",
+      "upstream_body_sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
+      "adapted_body_sha256": "d4c48fd3864091d650c20cc4d32a4f8bbc1267923190b089e8c8bd8a04574da3",
+      "upstream_body_lines": 30,
+      "adapted_body_lines": 32,
+      "changes": [
+        {
+          "rule": "skill-name:wayfinder",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "triage-labels.md",
+      "upstream_body_sha256": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d",
+      "adapted_body_sha256": "4349d458214d9d2d32b8ebf540a5a1d20b3ec047d7f0be66a17bea5bccbb3e9e",
+      "upstream_body_lines": 15,
+      "adapted_body_lines": 17,
+      "changes": []
+    },
+    {
+      "skill": "setup-matt-pocock-skills",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "79429b13ed99571eb06ada0aaf4c328c4cda3ef044c37291cf78d3dcc0477ae0",
+      "adapted_body_sha256": "bb676e2b75935cf1db5cd5ebeafc3727cce4b7002956627b411be51840a2d175",
+      "upstream_body_lines": 110,
+      "adapted_body_lines": 110,
+      "changes": [
+        {
+          "rule": "local-default",
+          "count": 1
+        },
+        {
+          "rule": "codex-config",
+          "count": 1
+        },
+        {
+          "rule": "codex-config",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "tdd",
+      "resource": "mocking.md",
+      "upstream_body_sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+      "adapted_body_sha256": "69c378e3a50c908cfcfb8ff6a25759ff56642959916496179fe280eace4d57ee",
+      "upstream_body_lines": 59,
+      "adapted_body_lines": 61,
+      "changes": []
+    },
+    {
+      "skill": "tdd",
+      "resource": "tests.md",
+      "upstream_body_sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a",
+      "adapted_body_sha256": "db42a7b5c9253afac2647dade5cd834ab6b2fae47ec8516b1bd533f337030d13",
+      "upstream_body_lines": 77,
+      "adapted_body_lines": 79,
+      "changes": []
+    },
+    {
+      "skill": "tdd",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "c01fa1aea2a632f7163979f83e060440d34d3b4703ac07b726207d94d883693b",
+      "adapted_body_sha256": "e5011dcf8df0424e88ece83673d1d54d5a653138316af8a603f37827e2d29400",
+      "upstream_body_lines": 33,
+      "adapted_body_lines": 33,
+      "changes": [
+        {
+          "rule": "single-skill-load",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "teach",
+      "resource": "GLOSSARY-FORMAT.md",
+      "upstream_body_sha256": "9b99859ec28437668130d8f2ce5a342938970f8a1ed4fd38c3eab4f4b5fff210",
+      "adapted_body_sha256": "5fb68a2402681943c322241594be07c792f7a9adefee029cf2baa936509d5bac",
+      "upstream_body_lines": 35,
+      "adapted_body_lines": 37,
+      "changes": []
+    },
+    {
+      "skill": "teach",
+      "resource": "LEARNING-RECORD-FORMAT.md",
+      "upstream_body_sha256": "701fa34b6748aa89e6c960ffb815257f481a7d77fb2900f9028f7edf3fdd6052",
+      "adapted_body_sha256": "84336c45fefa1812802cef77e4c74e3d45fc04ad65a746dc9c4946751f4bf841",
+      "upstream_body_lines": 46,
+      "adapted_body_lines": 48,
+      "changes": []
+    },
+    {
+      "skill": "teach",
+      "resource": "MISSION-FORMAT.md",
+      "upstream_body_sha256": "8cacbb3c0644d3ae0ea4965564797099401a6930a23f7cf462918576587f2418",
+      "adapted_body_sha256": "bfeb5c3e80cb296ee19a9e7ebcf89d1c361281d1e91c015234a3a4484042a499",
+      "upstream_body_lines": 31,
+      "adapted_body_lines": 33,
+      "changes": []
+    },
+    {
+      "skill": "teach",
+      "resource": "RESOURCES-FORMAT.md",
+      "upstream_body_sha256": "e9cacf34026e11a8d1c8f9de88abe5bcbf654f4ebdb25cae8c0de0d5f48f44ec",
+      "adapted_body_sha256": "5604cd7f2b3ecdf5df2472572f294bcd3a80c36573d910195b3c7c49c0aef76e",
+      "upstream_body_lines": 32,
+      "adapted_body_lines": 34,
+      "changes": []
+    },
+    {
+      "skill": "teach",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "1cbe79e892efaf4a7ac4450938f2bf96ef759cc6d2b1aae2054043287e197afc",
+      "adapted_body_sha256": "1cbe79e892efaf4a7ac4450938f2bf96ef759cc6d2b1aae2054043287e197afc",
+      "upstream_body_lines": 133,
+      "adapted_body_lines": 133,
+      "changes": []
+    },
+    {
+      "skill": "to-questionnaire",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "af6d0b3bc991e569ca031e568674b42041b7218bdc6777cfaf18846f2d391180",
+      "adapted_body_sha256": "af6d0b3bc991e569ca031e568674b42041b7218bdc6777cfaf18846f2d391180",
+      "upstream_body_lines": 48,
+      "adapted_body_lines": 48,
+      "changes": []
+    },
+    {
+      "skill": "to-spec",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "38ff2a650412bd40fad23bb7deef8279d3589001b6456c5b12ecf6dc1b52ece6",
+      "adapted_body_sha256": "c61350b9ef2473e51789b559b80cfd96443b64627572ffe9456821d5e1a0a3c9",
+      "upstream_body_lines": 69,
+      "adapted_body_lines": 69,
+      "changes": [
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "to-tickets",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "110ca5a9000abe457283f4a9f31907cdb9c65ba9948ebea35e3ec919f581aeeb",
+      "adapted_body_sha256": "0b680c1e94cae959c701e44b29c8f9f27817d394d4861fa060d5f49b3aeb6071",
+      "upstream_body_lines": 99,
+      "adapted_body_lines": 99,
+      "changes": [
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "skill": "triage",
+      "resource": "AGENT-BRIEF.md",
+      "upstream_body_sha256": "7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f",
+      "adapted_body_sha256": "7d24643c36b6f6b8ecff85201be9f373db781359223c7e78773eb5c77df98223",
+      "upstream_body_lines": 207,
+      "adapted_body_lines": 209,
+      "changes": [
+        {
+          "rule": "skill-name:triage",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "triage",
+      "resource": "OUT-OF-SCOPE.md",
+      "upstream_body_sha256": "1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d",
+      "adapted_body_sha256": "e74384b972a8f2b3cf97dc8e720821ac668d446f6b3fef687f34428c1f850bdf",
+      "upstream_body_lines": 105,
+      "adapted_body_lines": 107,
+      "changes": []
+    },
+    {
+      "skill": "triage",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "47f8e8c81708c8862eda6e41d5e6e4fb0767e225613f88ce5e847aeb279c1f97",
+      "adapted_body_sha256": "efc77e5a6bca9ceb11ae9deb24b0314a44f1fad90d1d83ce535d8c2cd4721925",
+      "upstream_body_lines": 106,
+      "adapted_body_lines": 106,
+      "changes": [
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 1
+        },
+        {
+          "rule": "skill-name:triage",
+          "count": 1
+        },
+        {
+          "rule": "two-skill-load",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "wait-what",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "4186095727dbec055e14f069d9c0240a9500bbad196b4f477c6bc7bff938576c",
+      "adapted_body_sha256": "a8eee603c7dd358f340baef26e13801db25b627215aade01b64fc7c05ac123cd",
+      "upstream_body_lines": 1,
+      "adapted_body_lines": 1,
+      "changes": [
+        {
+          "rule": "language",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "skill": "wayfinder",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "24eab5d0099f8a8d8eac4706d269a125713e4042792d04c015d7819633c16af1",
+      "adapted_body_sha256": "61bac79642b1d5087dde24c5e711a80e4bff4e4dadd780f06f41453a777f7e55",
+      "upstream_body_lines": 122,
+      "adapted_body_lines": 122,
+      "changes": [
+        {
+          "rule": "skill-name:setup-matt-pocock-skills",
+          "count": 1
+        },
+        {
+          "rule": "two-skill-load",
+          "count": 3
+        },
+        {
+          "rule": "tool-adapter",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "skill": "wizard",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "103943b2a0dd8e413642d7f3e05ad680a9be9057c5f37dba3dbcf45530e4f315",
+      "adapted_body_sha256": "103943b2a0dd8e413642d7f3e05ad680a9be9057c5f37dba3dbcf45530e4f315",
+      "upstream_body_lines": 39,
+      "adapted_body_lines": 39,
+      "changes": []
+    },
+    {
+      "skill": "writing-for-agents",
+      "resource": "SKILL-MECHANICS.md",
+      "upstream_body_sha256": "c768e6307c7c10728c401c213f2c4ba71c542127eeb7ad2956aabd15a0fa0059",
+      "adapted_body_sha256": "4365d0b6e21f91dba388c2194146df9824604f5daeee0c0590090b53b0a9a5f7",
+      "upstream_body_lines": 22,
+      "adapted_body_lines": 24,
+      "changes": []
+    },
+    {
+      "skill": "writing-for-agents",
+      "resource": "SKILL.md",
+      "upstream_body_sha256": "20e3b1bbcf8eec73237b2ef5765177ba3fb7d0d121000fd275672dad300abe24",
+      "adapted_body_sha256": "20e3b1bbcf8eec73237b2ef5765177ba3fb7d0d121000fd275672dad300abe24",
+      "upstream_body_lines": 76,
+      "adapted_body_lines": 76,
+      "changes": []
+    }
+  ]
+}

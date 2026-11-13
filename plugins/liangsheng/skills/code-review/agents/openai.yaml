@@ -1,0 +1,6 @@
+interface:
+  display_name: "代码审查"
+  short_description: "代码审查：用户要检查指定代码改动、工作区差异或分支质量时，核对规范与需求"
+  default_prompt: "使用 $liangsheng:code-review 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

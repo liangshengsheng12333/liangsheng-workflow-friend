@@ -1,0 +1,6 @@
+interface:
+  display_name: "功能实现"
+  short_description: "功能实现：按明确规格或任务实现，执行适用测试并做任务代码审查"
+  default_prompt: "使用 $liangsheng:implement 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

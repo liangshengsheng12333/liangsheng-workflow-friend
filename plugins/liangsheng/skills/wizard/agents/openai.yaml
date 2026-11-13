@@ -1,0 +1,6 @@
+interface:
+  display_name: "步骤向导"
+  short_description: "步骤向导：用户需要亲自登录、授权、输入凭据或操作外部系统时，提供逐步指引"
+  default_prompt: "使用 $liangsheng:wizard 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

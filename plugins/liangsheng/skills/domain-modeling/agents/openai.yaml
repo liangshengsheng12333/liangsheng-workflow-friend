@@ -1,0 +1,6 @@
+interface:
+  display_name: "领域梳理"
+  short_description: "领域梳理：业务词汇含糊、同词异义或业务边界不清时，结合材料澄清术语、例子与关系，复用已有词汇表。"
+  default_prompt: "使用 $liangsheng:domain-modeling 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+{
+  "name": "liangsheng-share",
+  "interface": {
+    "displayName": "凉笙工作流"
+  },
+  "plugins": [
+    {
+      "name": "liangsheng",
+      "source": {
+        "source": "local",
+        "path": "./plugins/liangsheng"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

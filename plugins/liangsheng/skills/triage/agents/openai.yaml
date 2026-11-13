@@ -1,0 +1,6 @@
+interface:
+  display_name: "事项分诊"
+  short_description: "事项分诊：用户提供零散反馈、缺陷或需求，希望分类、去重、核实和排优先级时，形成有证据的待办"
+  default_prompt: "使用 $liangsheng:triage 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

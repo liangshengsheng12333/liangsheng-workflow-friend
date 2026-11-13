@@ -1,0 +1,6 @@
+interface:
+  display_name: "路径探明"
+  short_description: "路径探明：复杂多阶段目标含有尚不清楚的关键决策、未知条件和依赖，用户希望梳理先后顺序时，建立决策图并逐步消除未知。"
+  default_prompt: "使用 $liangsheng:wayfinder 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

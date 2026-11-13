@@ -1,0 +1,6 @@
+interface:
+  display_name: "快速原型"
+  short_description: "快速原型：用户想先做可操作演示来比较界面、交互或状态逻辑时，制作标为试验的最小可运行产物。"
+  default_prompt: "使用 $liangsheng:prototype 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

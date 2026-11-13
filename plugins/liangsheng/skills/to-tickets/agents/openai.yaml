@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务拆分"
+  short_description: "任务拆分：用户要把已明确的需求、方案或规格拆为可独立验收的小任务并排依赖时，生成纵向任务清单"
+  default_prompt: "使用 $liangsheng:to-tickets 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "liangsheng",
+  "version": "2.1.0",
+  "description": "凉笙工作流：动态选用 26 个子技能，协调跨平台执行、证据查收和专用 ChatGPT 顾问。",
+  "license": "MIT",
+  "author": {
+    "name": "凉笙工作流"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "凉笙工作流",
+        "shortDescription": "v2.1 双 P00、统一恢复与岗位技能驱动",
+        "longDescription": "模式一精简、模式二完整讨论岗位名单，统一恢复；P00a 规划、P00b 初始化，P01 批次派发，员工按岗位清单调用技能。",
+        "developerName": "凉笙工作流",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "小笙讨论",
+          "一键省流",
+          "继续项目"
+        ]
+      }
+    }
+  }
+}

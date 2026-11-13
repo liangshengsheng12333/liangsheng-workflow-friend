@@ -1,0 +1,6 @@
+interface:
+  display_name: "文档拷问"
+  short_description: "文档拷问：结合材料逐轮讨论，实际组合 grilling 与 domain-modeling，澄清决定并记录已确定术语。"
+  default_prompt: "使用 $liangsheng:grill-with-docs 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

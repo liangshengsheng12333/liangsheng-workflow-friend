@@ -1,0 +1,6 @@
+interface:
+  display_name: "模块设计"
+  short_description: "模块设计：用户要比较模块职责、接口或测试接缝、决定如何划分代码时，评估不同设计及调用成本"
+  default_prompt: "使用 $liangsheng:codebase-design 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

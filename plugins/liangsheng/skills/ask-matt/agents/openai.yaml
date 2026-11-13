@@ -1,0 +1,6 @@
+interface:
+  display_name: "路线指引"
+  short_description: "路线指引：用户不知从哪里入手、需要判断工作路线时，依据目标推荐最短有用的技能顺序"
+  default_prompt: "使用 $liangsheng:ask-matt 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

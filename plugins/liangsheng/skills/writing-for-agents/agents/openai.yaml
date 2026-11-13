@@ -1,0 +1,6 @@
+interface:
+  display_name: "代理指令"
+  short_description: "代理指令：用户要编写或改进 AI 代理指令、AGENTS.md、角色提示词或技能正文时，明确触发、输入输出与完成条件。"
+  default_prompt: "使用 $liangsheng:writing-for-agents 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "规范接入"
+  short_description: "规范接入：用户要为仓库补齐代理协作所需的记录、术语或指引入口时，检查缺项并复用已有状态源"
+  default_prompt: "使用 $liangsheng:setup-matt-pocock-skills 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

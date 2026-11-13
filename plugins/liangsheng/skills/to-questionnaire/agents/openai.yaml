@@ -1,0 +1,6 @@
+interface:
+  display_name: "调研提纲"
+  short_description: "调研提纲：用户要向他人收集信息、准备访谈或回填问题时，生成有重点的提问稿"
+  default_prompt: "使用 $liangsheng:to-questionnaire 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务交接"
+  short_description: "任务交接：用户要换窗口、换人、换平台或中断后续接时，整理目标、已做工作、版本、证据和下一步，供接手者继续。"
+  default_prompt: "使用 $liangsheng:handoff 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

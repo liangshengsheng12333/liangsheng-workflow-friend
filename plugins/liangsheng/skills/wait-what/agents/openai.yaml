@@ -1,0 +1,6 @@
+interface:
+  display_name: "通俗重述"
+  short_description: "通俗重述：用户表示没听懂、术语太多或想把刚才的话说简单时，用短句和熟悉例子重述"
+  default_prompt: "使用 $liangsheng:wait-what 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

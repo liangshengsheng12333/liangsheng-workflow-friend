@@ -1,0 +1,206 @@
+{
+  "version": "2.1.0",
+  "shared": [
+    "handoff",
+    "wait-what"
+  ],
+  "dependencies": {
+    "grill-with-docs": [
+      "grilling",
+      "domain-modeling"
+    ],
+    "grill-me": [
+      "grilling"
+    ]
+  },
+  "conditional_advisor": {
+    "skill": "codex-with-chatgpt",
+    "requires_project_approval": true,
+    "roles": [
+      "P00a",
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ]
+  },
+  "roles": {
+    "DISCUSS": {
+      "title": "当前讨论窗口",
+      "skills": [
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "grill-me",
+        "ask-matt",
+        "wayfinder",
+        "research",
+        "prototype"
+      ]
+    },
+    "P00a": {
+      "title": "PRD 与复杂规划",
+      "skills": [
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "to-spec",
+        "to-tickets",
+        "research",
+        "wayfinder",
+        "codebase-design",
+        "prototype",
+        "writing-for-agents"
+      ]
+    },
+    "P00b": {
+      "title": "固定初始化",
+      "skills": [
+        "setup-matt-pocock-skills",
+        "writing-for-agents",
+        "wizard"
+      ]
+    },
+    "P01": {
+      "title": "批次派发",
+      "skills": [
+        "ask-matt",
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling"
+      ]
+    },
+    "P02": {
+      "title": "查收与状态",
+      "skills": []
+    },
+    "P03": {
+      "title": "需求维护",
+      "skills": [
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "triage",
+        "to-spec",
+        "to-tickets",
+        "research",
+        "to-questionnaire"
+      ]
+    },
+    "P04": {
+      "title": "提示词撰写",
+      "skills": [
+        "writing-for-agents",
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "research"
+      ]
+    },
+    "P05": {
+      "title": "执行",
+      "skills": [
+        "implement",
+        "tdd",
+        "diagnosing-bugs",
+        "codebase-design",
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "prototype",
+        "research",
+        "code-review"
+      ]
+    },
+    "P06": {
+      "title": "Git 与远端管理",
+      "skills": [
+        "resolving-merge-conflicts",
+        "research"
+      ]
+    },
+    "P07": {
+      "title": "集成与测试",
+      "skills": [
+        "implement",
+        "tdd",
+        "diagnosing-bugs",
+        "resolving-merge-conflicts",
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "code-review",
+        "research"
+      ]
+    },
+    "P08": {
+      "title": "文件整理",
+      "skills": [
+        "writing-for-agents"
+      ]
+    },
+    "P09": {
+      "title": "独立审查",
+      "skills": [
+        "code-review",
+        "grill-with-docs",
+        "grilling",
+        "domain-modeling",
+        "research"
+      ]
+    },
+    "P10": {
+      "title": "发布与交付",
+      "skills": [
+        "research",
+        "wizard"
+      ]
+    },
+    "P11": {
+      "title": "连接维护",
+      "skills": [
+        "codex-with-chatgpt",
+        "diagnosing-bugs",
+        "research",
+        "wizard"
+      ]
+    },
+    "CURRENT": {
+      "title": "独立任务窗口",
+      "skills": [
+        "ask-matt",
+        "code-review",
+        "codebase-design",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "grill-me",
+        "grill-with-docs",
+        "grilling",
+        "handoff",
+        "implement",
+        "improve-codebase-architecture",
+        "prototype",
+        "research",
+        "resolving-merge-conflicts",
+        "setup-matt-pocock-skills",
+        "tdd",
+        "teach",
+        "to-questionnaire",
+        "to-spec",
+        "to-tickets",
+        "triage",
+        "wait-what",
+        "wayfinder",
+        "wizard",
+        "writing-for-agents",
+        "codex-with-chatgpt"
+      ]
+    }
+  }
+}

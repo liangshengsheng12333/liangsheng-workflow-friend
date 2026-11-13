@@ -1,0 +1,6 @@
+interface:
+  display_name: "规格成稿"
+  short_description: "规格成稿：用户希望把已讨论清楚的需求整理成规格、产品文档或验收标准时，综合现有决定成稿"
+  default_prompt: "使用 $liangsheng:to-spec 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

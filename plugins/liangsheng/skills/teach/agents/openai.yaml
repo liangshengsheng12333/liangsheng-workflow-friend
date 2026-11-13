@@ -1,0 +1,6 @@
+interface:
+  display_name: "系统教学"
+  short_description: "系统教学：用户想系统学习一个主题、安排练习并获得反馈时，按基础和目标逐步教学"
+  default_prompt: "使用 $liangsheng:teach 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "架构巡检"
+  short_description: "架构巡检：用户想找结构问题、维护痛点或值得重构的部分时，基于近期改动与真实摩擦提出候选"
+  default_prompt: "使用 $liangsheng:improve-codebase-architecture 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

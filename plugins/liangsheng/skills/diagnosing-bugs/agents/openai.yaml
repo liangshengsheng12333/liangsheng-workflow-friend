@@ -1,0 +1,6 @@
+interface:
+  display_name: "缺陷诊断"
+  short_description: "缺陷诊断：用户报告报错、结果异常、偶现失败或性能退化，要求找原因和修复时，建立复现并验证根因"
+  default_prompt: "使用 $liangsheng:diagnosing-bugs 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

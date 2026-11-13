@@ -1,0 +1,6 @@
+interface:
+  display_name: "构想拷问"
+  short_description: "构想拷问：用户只有初步构想、希望逐轮追问以澄清目标和范围，且没有现成项目材料时使用"
+  default_prompt: "使用 $liangsheng:grill-me 处理当前请求，交付可核实的结果。"
+policy:
+  allow_implicit_invocation: true

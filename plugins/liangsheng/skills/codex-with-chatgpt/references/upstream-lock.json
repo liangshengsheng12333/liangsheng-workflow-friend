@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/XiaoDuoYa/codex-with-chatgpt.git",
+  "commit": "535a07dbb7aee887924c53767d985c09d405319d",
+  "packageVersion": "0.1.3",
+  "packageManager": "pnpm@11.24.0",
+  "node": ">=20",
+  "license": "MIT",
+  "licenseFile": "../../../LICENSE-codex-with-chatgpt",
+  "adapter": "liangsheng-v1.5.0",
+  "updatePolicy": "只在专门维护完成兼容与行为验证后修改固定提交；运行时禁止上游更新和技能安装",
+  "verifiedSourceDate": "2026-10-09"
+}

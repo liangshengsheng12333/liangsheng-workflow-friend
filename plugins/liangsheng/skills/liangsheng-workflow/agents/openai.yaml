@@ -1,0 +1,6 @@
+interface:
+  display_name: "凉笙工作流 v2.1"
+  short_description: "半自动项目、双 P00 初始化、统一恢复与岗位技能调用"
+  default_prompt: "使用 $liangsheng:liangsheng-workflow 按真实阶段、岗位清单和批准范围处理当前请求。"
+policy:
+  allow_implicit_invocation: true
